@@ -1,0 +1,74 @@
+# ========================================
+# Android Studio + Jetpack Compose Project
+# ========================================
+
+# Gradle files
+.gradle/
+build/
+!gradle-wrapper.jar
+
+# Local configuration files
+local.properties
+*.iml
+
+# IntelliJ / Android Studio
+.idea/
+# Except some shared configs
+!.idea/misc.xml
+!.idea/runConfigurations/
+!.idea/codeStyles/
+!.idea/inspectionProfiles/
+
+# Specific ignored idea files
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/caches/
+.idea/libraries/
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/dictionaries
+.idea/shelf/
+
+# Native build
+.externalNativeBuild/
+.cxx/
+
+# MacOS / Windows / Linux OS files
+.DS_Store
+Thumbs.db
+
+# Emulator / Capture files
+captures/
+*.log
+
+# Kotlin/Java build output
+*.class
+*.jar
+*.war
+*.ear
+
+# Compose-specific (if generated)
+.compose-cache/
+
+# Misc
+*.apk
+*.ap_
+
+# Testing / Coverage
+test-results/
+output.json
+*.ec
+
+# Jetifier
+.idea/.name
+
+# Android Studio user settings (unnecessary in Git)
+.idea/httpRequests/
+
+# Ignore all build directories in all modules
+**/build/
+
+# Ignore release folder at root or module level
+/release/
+**/release/
